@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
   <!--  custom CSS -->
   <link rel="stylesheet" href="style.css">
@@ -22,7 +22,7 @@
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     
     <div class="container">
-        <a class="navbar-brand" href="#">MyPortfolio</a>
+        <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,6 +30,8 @@
             <ul class="navbar-nav ms-auto"> 
                 <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
@@ -55,12 +57,12 @@
   </tr>
 </table>
 
-
+    <!-- image -->
     <img src="image/formal pic joshua.jpg" 
-         class="img-fluid rounded-circle mt-4 border border-light" 
+         class="rounded-circle mt-4" 
          style="max-width:200px;" alt="Profile"> 
     <div class="mt-4">
-      <a href="#projects" class="btn btn-primary btn-lg">🚀 View My Work</a>
+      <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
     </div>
   </div>
 </section>
@@ -68,7 +70,7 @@
 <!-- Services Section -->
 <section id="services" class="services py-5">
   <div class="container text-center">
-    <h2 class="fw-bold mb-4"> My Services</h2>
+    <h2 class="fw-bold mb-4"> Services Offered</h2>
     <div class="row">
       <!-- Service 1 -->
       <div class="col-md-4">
@@ -98,6 +100,71 @@
   </div>
 </section>
 
+<!-- 🔹 Certifications Section -->
+<section id="certifications" class="certifications py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Certifications</h2>
+    <div class="row">
+      <!-- Certificate 1 -->
+      <div class="col-md-4">
+        <div class="certification-card">
+          <img src="image/Java certificate.png" class="img-fluid" alt="Certificate 1">
+          <div class="certification-overlay">
+            <h4>Java Certificate</h4>
+            <p>Completed Java programming fundamentals course</p>
+          </div>
+        </div>
+      </div>
+      <!-- Certificate 2 -->
+      <div class="col-md-4">
+        <div class="certification-card">
+          <img src="image/microsoft certificate.jpg" class="img-fluid" alt="Certificate 2">
+          <div class="certification-overlay">
+            <h4>Microsft certificate</h4>
+            <p>28 Hours modular training for Microsft Office Appilcication</p>
+          </div>
+        </div>
+      </div>
+      <!-- Certificate 3 -->
+      <div class="col-md-4">
+        <div class="certification-card">
+          <img src="image/crack the code certificate.jpg" class="img-fluid" alt="Certificate 3">
+          <div class="certification-overlay">
+            <h4>Crack the Code Certificate</h4>
+            <p>Capture the flag  for challenging cycbersecurity exercises 9th of December 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!-- 🔹 Education Section -->
+<section id="education" class="section-padding">
+  <div class="container">
+    <h2 class="text-center mb-5">Education Background</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card p-4 shadow-sm rounded">
+          <h4 class="fw-bold">Bachelor of Science in Information Technology</h4>
+          <p class="mb-1"><strong>University of Mindanao / College of Computing Education</strong></p>
+          <p class="mb-2">Expected Graduation: 2026</p>
+          <hr>
+          <p>
+            I am currently pursuing a Bachelor of Science in Information Technology (BSIT). 
+            Through this program, I am building a strong foundation in software development, cybersecurity, and network systems. 
+            I am highly motivated to continuously learn, upskill, and improve my technical abilities 
+            through hands-on practice and real-world applications. I also aim to adapt efficiently to the fast advancements
+            in artificial intelligence. My goal is to become a professional and innovative IT practitioner, with a strong interest 
+            in becoming a developer while gaining expertise in cybersecurity and networking to support secure and efficient systems in my future career.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- Projects Section -->
 <section id="projects" class="projects py-5">
   <div class="container text-center">
@@ -119,7 +186,7 @@
           <img src="image/red curtains.jpg" class="img-fluid" alt="Project 2">
           <div class="project-overlay">
             <h4>COMMING SOON</h4>
-            <p>WLA pay open ron kay sarido</p>
+            <p>WLA pay open ron kay sarado</p>
           </div>
         </div>
       </div>
@@ -136,6 +203,7 @@
     </div>
   </div>
 </section>
+ 
 
 <!-- Contact Section -->
 <section id="contact" class="contact py-5">

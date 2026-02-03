@@ -46,6 +46,77 @@
   color: #0d6efd !important;     
 }
 
+
+/* 🔹 Certifications Section Styling */
+.certifications {
+  background: rgba(0, 0, 0, 0.9); 
+  color: #f1f1f1;
+}
+.certification-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.certification-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.certification-card:hover img {
+  transform: scale(1.05);
+}
+.certification-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(3, 73, 177, 0.85);              /* color */
+  color: #fff;
+  padding: 20px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+.certification-card:hover .certification-overlay {
+  transform: translateY(0);
+}
+.certification-overlay h4 {
+  font-weight: 600;
+}
+.certification-overlay p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* 🔹 Education Section */
+#education {
+  background: rgba(0, 0, 0, 0.9); 
+  color: #f0efef;
+  padding: 60px 0;
+}
+
+/* Card styling */
+#education .card {
+  background: #323234; 
+  color: #f6f6f6;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+/* Headings */
+#education h4 {
+  margin-bottom: 20px; /* space between big text and paragraph */
+  font-size: 2em;
+  font-weight: bold;
+}
+/* Paragraph spacing */
+#education p {
+  line-height: 1.6; /* easier to read */
+  margin-bottom: 15px;
+}
+
 /*services section*/
 .services {
   background: rgba(0, 0, 0, 0.9); 
